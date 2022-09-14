@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceDoctor", "NiceDoctor\NiceDoctor.csproj", "{7C8CC9D4-4950-45C4-8C1E-37E3674C6854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8CC9D4-4950-45C4-8C1E-37E3674C6854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8CC9D4-4950-45C4-8C1E-37E3674C6854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8CC9D4-4950-45C4-8C1E-37E3674C6854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8CC9D4-4950-45C4-8C1E-37E3674C6854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFA49E4F-518D-4E4D-B65E-F5A6870B9E12}
+	EndGlobalSection
+EndGlobal
