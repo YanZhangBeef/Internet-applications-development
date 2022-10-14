@@ -11,7 +11,6 @@ namespace NiceDoctor.Models
     {
         public int Id { get; set; }
 
-        [Required]
         public int Score { get; set; }
 
         [Required]

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NiceDoctor",
+    "\\NiceDoctor\\NiceDoctor",
+    "\\NiceDoctor\\NiceDoctor\\Views",
+    "\\NiceDoctor\\NiceDoctor\\Views\\Shared"
+  ],
+  "SelectedNode": "\\NiceDoctor\\NiceDoctor\\Views\\Shared\\_Layout.cshtml",
+  "PreviewInSolutionExplorer": false
+}

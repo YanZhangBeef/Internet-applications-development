@@ -16,11 +16,9 @@ namespace NiceDoctor.Models
 
         [Required]
         public string LastName { get; set; }
-        
-        [Required]
+
         public int DateOfBirth { get; set; }
 
-        [Required]
         public int ContackNumber { get; set; }
 
         [Required]

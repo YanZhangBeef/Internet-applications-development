@@ -173,7 +173,9 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AppointmentsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImagesController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NotesController.cs" />
     <Compile Include="Controllers\PatientsController.cs" />
     <Compile Include="Controllers\PrescriptionsController.cs" />
     <Compile Include="Controllers\ProfilesController.cs" />
@@ -184,8 +186,10 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Appointment.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Image.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\NiceDoctorModels.cs" />
+    <Compile Include="Models\Note.cs" />
     <Compile Include="Models\Patient.cs" />
     <Compile Include="Models\Prescription.cs" />
     <Compile Include="Models\Profile.cs" />
@@ -278,8 +282,20 @@
     <Content Include="Views\Ratings\Details.cshtml" />
     <Content Include="Views\Ratings\Edit.cshtml" />
     <Content Include="Views\Ratings\Index.cshtml" />
+    <Content Include="Views\Images\Create.cshtml" />
+    <Content Include="Views\Images\Delete.cshtml" />
+    <Content Include="Views\Images\Details.cshtml" />
+    <Content Include="Views\Images\Edit.cshtml" />
+    <Content Include="Views\Images\Index.cshtml" />
+    <Content Include="Views\Notes\Create.cshtml" />
+    <Content Include="Views\Notes\Delete.cshtml" />
+    <Content Include="Views\Notes\Details.cshtml" />
+    <Content Include="Views\Notes\Edit.cshtml" />
+    <Content Include="Views\Notes\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

@@ -16,8 +16,6 @@ namespace NiceDoctor.Models
         [Required]
         public string MedicineName { get; set; }
 
-
-        [Required]
         public int Days { get; set; }
 
         [Required]

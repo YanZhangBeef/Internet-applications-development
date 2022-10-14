@@ -12,6 +12,7 @@ namespace NiceDoctor.Models
         public Patient()
         {
             Appointments = new HashSet<Appointment>();
+            Notes = new HashSet<Note>();
             Prescriptions = new HashSet<Prescription>();
             Profiles = new HashSet<Profile>();
             Ratings = new HashSet<Rating>();
@@ -30,6 +31,9 @@ namespace NiceDoctor.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Appointment> Appointments { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Note> Notes { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Prescription> Prescriptions { get; set; }
