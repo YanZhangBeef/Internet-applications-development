@@ -7,17 +7,21 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using As.Models;
+using Microsoft.AspNet.Identity;
 
 namespace As.Controllers
 {
     public class PatientsController : Controller
     {
-        private NDContainer db = new NDContainer();
+        private ND db = new ND();
 
         // GET: Patients
         public ActionResult Index()
         {
-            return View(db.Patients.ToList());
+            var userId = User.Identity.GetUserId();
+            var patients = db.Patients.Where(s => s.UserId ==
+            userId).ToList();
+            return View(patients);
         }
 
         // GET: Patients/Details/5
@@ -46,8 +50,14 @@ namespace As.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName")] Patient patient)
         {
+
+           patient.UserId = User.Identity.GetUserId();
+            ModelState.Clear();
+            TryValidateModel(patient);
+
             if (ModelState.IsValid)
             {
                 db.Patients.Add(patient);
@@ -78,7 +88,7 @@ namespace As.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName")] Patient patient)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,UserId")] Patient patient)
         {
             if (ModelState.IsValid)
             {

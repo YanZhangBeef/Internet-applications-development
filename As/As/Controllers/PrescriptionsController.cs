@@ -12,7 +12,7 @@ namespace As.Controllers
 {
     public class PrescriptionsController : Controller
     {
-        private NDContainer db = new NDContainer();
+        private ND db = new ND();
 
         // GET: Prescriptions
         public ActionResult Index()
@@ -48,7 +48,7 @@ namespace As.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,TreatementDate,MedicineName,Days,Dosag,PatientId")] Prescription prescription)
+        public ActionResult Create([Bind(Include = "Id,TreatementDate,MedicineName,Days,Dosage,PatientId")] Prescription prescription)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace As.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,TreatementDate,MedicineName,Days,Dosag,PatientId")] Prescription prescription)
+        public ActionResult Edit([Bind(Include = "Id,TreatementDate,MedicineName,Days,Dosage,PatientId")] Prescription prescription)
         {
             if (ModelState.IsValid)
             {

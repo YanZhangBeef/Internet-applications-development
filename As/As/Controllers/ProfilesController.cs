@@ -13,7 +13,7 @@ namespace As.Controllers
 {
     public class ProfilesController : Controller
     {
-        private NDContainer db = new NDContainer();
+        private ND db = new ND();
 
         // GET: Profiles
         public ActionResult Index()
@@ -22,10 +22,10 @@ namespace As.Controllers
             return View(profiles.ToList());
         }
         [HttpGet]
-        public async Task<ActionResult> Index( string p_search ,string sortOrder)
+        public async Task<ActionResult> Index(string p_search, string sortOrder)
         {
             ViewData["FirstNameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-          
+
             ViewData["GetProfiles"] = p_search;
 
             var profiles = from s in db.Profiles
@@ -39,12 +39,12 @@ namespace As.Controllers
                 case "name_desc":
                     profiles = profiles.OrderByDescending(s => s.FirstName);
                     break;
-              
+
                 default:
                     profiles = profiles.OrderBy(s => s.FirstName);
                     break;
             }
-            
+
             return View(await profiles.AsNoTracking().ToListAsync());
         }
 

@@ -71,6 +71,9 @@ G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.Owin.Secur
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.Web.Infrastructure.dll
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Newtonsoft.Json.dll
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Owin.dll
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\SendGrid.dll
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\SendGrid.SmtpApi.dll
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\StarkbankEcdsa.dll
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Helpers.dll
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Mvc.dll
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Optimization.dll
@@ -81,6 +84,12 @@ G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.WebPages.
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\WebGrease.dll
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Castle.Core.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Castle.Windsor.xml
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Newtonsoft.Json.xml
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\SendGrid.pdb
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\SendGrid.xml
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\SendGrid.SmtpApi.pdb
+G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\SendGrid.SmtpApi.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Helpers.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Mvc.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Optimization.xml
@@ -88,12 +97,10 @@ G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.Razor.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.WebPages.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.WebPages.Deployment.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\System.Web.WebPages.Razor.xml
-G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Newtonsoft.Json.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Antlr3.Runtime.pdb
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\EntityFramework.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\EntityFramework.SqlServer.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.AspNet.Identity.Core.xml
-G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.AspNet.Identity.Owin.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.Owin.xml
 G:\MASTER\S2\FIT5032\AS\Coding\FIT5032-Assignment\As\As\bin\Microsoft.Owin.Host.SystemWeb.xml

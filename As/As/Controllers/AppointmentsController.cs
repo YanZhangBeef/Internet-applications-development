@@ -12,7 +12,7 @@ namespace As.Controllers
 {
     public class AppointmentsController : Controller
     {
-        private NDContainer db = new NDContainer();
+        private ND db = new ND();
 
         // GET: Appointments
         public ActionResult Index()

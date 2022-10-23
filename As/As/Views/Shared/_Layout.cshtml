@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - The best online doctor</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -17,18 +17,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("AS", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Nice Doctor", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Index", "Contact")</li>
+
 
                     @if (User.Identity.IsAuthenticated)
                     {
                         <li>@Html.ActionLink("Patients", "Index", "Patients")</li>
                         <li>@Html.ActionLink("Prescriptions", "Index", "Prescriptions")</li>
                         <li>@Html.ActionLink("Profiles", "Index", "Profiles")</li>
-
+                        <li>@Html.ActionLink("Send Email", "Send_Email", "Home")</li>
 
                         if (User.IsInRole("Admin"))
                         {
@@ -48,7 +50,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - The best online doctor</p>
         </footer>
     </div>
 

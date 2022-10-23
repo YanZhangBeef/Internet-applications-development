@@ -12,6 +12,14 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
+            @Html.DisplayNameFor(model => model.Patient.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Patient.FirstName)
+        </dd>
+
+        <dt>
             @Html.DisplayNameFor(model => model.TreatementDate)
         </dt>
 
@@ -36,19 +44,11 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Dosag)
+            @Html.DisplayNameFor(model => model.Dosage)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Dosag)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Patient.FirstName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Patient.FirstName)
+            @Html.DisplayFor(model => model.Dosage)
         </dd>
 
     </dl>
